@@ -1,0 +1,62 @@
+.section1{
+    width: 32rem;
+    height: 37.6rem;
+    flex-grow: 0;
+    margin:  0 1rem;
+    padding: 3.4rem 1.7rem 0.2rem 1.3rem;
+    background-color: #ffffff;
+    .title2{
+        color:#6c933e;
+        width: 24.4rem;
+        height: 3rem;
+        font-size: 1.2rem;
+        text-align: left;
+        line-height: 2.14;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.14;
+        letter-spacing: normal;
+        &--3{
+            color: #000000;
+            width: 29rem;
+            height: 3rem;
+            margin: 2.2rem 0 1rem;
+            font-size: 2.2rem;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.36;
+            letter-spacing: normal;
+            text-align: left;
+           
+            }
+        }
+    }
+.text2{
+    width: 29rem;
+    height: 18.1rem;
+    flex-grow: 0;
+    margin: 1rem 0 4.2rem;
+    color: #4a4a4a;
+    font-size: 1.8rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+}
+.compra{
+    color: #6c933e;
+    background-color: #ffffff;
+    width: 160px;
+    height: 45px;
+    border-radius: 50%  green solid 1px;
+    padding: 5px;
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,36 @@
+.section2 {
+    width: 32rem;
+    height: 65.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #d9e4cc;
+    margin: 1.6rem 0 0;
+    padding: 1.8rem 1.1rem 2rem 0.9rem;
+    .title4 {
+        width: 29.7rem;
+        height: 2.21rem;
+        flex-grow: 0;
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.5;
+        letter-spacing: normal;
+        text-align: center;
+        &--5{
+            
+            text-align: center;
+            color: black;
+        }
+    }
+
+}
+.images{
+    
+    .img1{
+        width: 1.14rem;
+        height: 12.41rem;
+        object-fit: contain;
+        border-radius: 50%;
+    }
+}
