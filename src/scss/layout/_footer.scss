@@ -1,29 +1,23 @@
 .footer{
     width: 100vw;
     height: 43.3rem;
-    /*margin: 67.2rem 0 0;
-    padding: 6.05rem 0.84rem 3.35rem 1.34rem;*/
-    background-color: #4a4a4a;
+    color: $colorwhite;
+    background-color: $colorbrown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-    &-nav{
-    width: 10.38rem;
-    height: 13.97rem;
-    flex-grow: 0;
-    margin: 0 9.66rem 2.79rem 9.77rem;
-    font-size: 1.6rem;
-    text-decoration-line: none;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.88;
-    letter-spacing: normal;
-    text-align: center;
-    justify-content: space-around;
-    .list1{
-        margin-bottom: 30px;
-        text-decoration-line: none;
+    &_up{
+        background-color: $colorwhite;
+        border-radius: 50%;
+        padding: 1.1rem 1.3rem;
+        transform: translateY(-50%);
     }
+
+    &_links{
+        color: $colorwhite;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
     }
 }
-   
-

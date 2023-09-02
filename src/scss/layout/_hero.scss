@@ -4,30 +4,43 @@
     background-size: cover;
     width: 100vw;
     height: 100vh;
-    flex-grow: 0;
     display: flex;
-    color: #ffffff;
-    justify-content: center;
-    text-align: center;
-    font-size: 3rem;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.67;
-    letter-spacing: normal;
-    .title-1 {
+    flex-direction: column;
+    align-items: center;
+    color: $colorwhite;
+    .hero_title{
+        width: 31.55rem;
+        height: 5.72rem;
         display: flex;
-        width: 24.33rem;
-        height: 1.6rem;
-        flex-grow: 0;
-        font-size: 1.6rem;
-        color: #ffffff;
-        font-weight: normal;
-        font-stretch: normal;
-         font-style: normal;
-         line-height: 1.19;
-        letter-spacing: normal;
-        text-align: center;
+        font-weight: bold;
+        padding-top: 38rem;
+        font-size: 3rem;
+        text-transform: uppercase;
+        justify-content: center;
+        }
+        .title-1 {
+            width: 24.33rem;
+            height: 1.6rem;
+            padding-left: 3.4rem;
+            padding-right: 3.8rem;
+            font-size: 3rem;
+            color: $colorwhite;
+            line-height: 1.19;
+            text-align: center;
+        }
+            .down{
+                width: 3.82rem;
+                height: 3.82rem;
+                padding: 1.1rem;
+                background-color: $colorwhite;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                line-height: 50px;
+                transform: translateY() translateX();
+                
+            }
 
-    }
-}
+        }
+    

@@ -1,18 +1,13 @@
 
 .header {
-    width: 4rem;
-    height: 3.68rem;
-    flex-grow: 0;
-    padding: 0 0.45rem 5.79rem 0;
+    padding: 1.1rem 1.05rem;
     background-color:#6c933e;
-    position: fixed;
-        .menu{
-            width: 1.35rem;
-            height: 1.18rem;
-            padding-top: 5px;
-            margin: 5px;
-            object-fit: contain;
-        }
+    position:fixed;
+    .menu {
+        justify-content: center;
+        align-items: center;
+
+    }
 }
        
     
