@@ -1,0 +1,33 @@
+.hero {
+    background-image: url("../images/cover.jpeg");
+    background-position: right;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    flex-grow: 0;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    .title-1 {
+        display: flex;
+        width: 24.33rem;
+        height: 1.6rem;
+        flex-grow: 0;
+        font-size: 1.6rem;
+        color: #ffffff;
+        font-weight: normal;
+        font-stretch: normal;
+         font-style: normal;
+         line-height: 1.19;
+        letter-spacing: normal;
+        text-align: center;
+
+    }
+}

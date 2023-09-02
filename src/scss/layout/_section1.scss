@@ -1,8 +1,8 @@
 .section1{
-    width: 32rem;
+    width: 100vw;
     height: 37.6rem;
     flex-grow: 0;
-    margin:  0 1rem;
+    margin-left:  0 1rem;
     padding: 3.4rem 1.7rem 0.2rem 1.3rem;
     background-color: #ffffff;
     .title2{
@@ -34,20 +34,18 @@
         }
     }
 .text2{
-    width: 29rem;
+    width: 100vw;
     height: 18.1rem;
     flex-grow: 0;
-    margin: 1rem 0 4.2rem;
     color: #4a4a4a;
     font-size: 1.8rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.67;
-    letter-spacing: normal;
     text-align: left;
 }
-.compra{
+.link{
     color: #6c933e;
     background-color: #ffffff;
     width: 160px;
