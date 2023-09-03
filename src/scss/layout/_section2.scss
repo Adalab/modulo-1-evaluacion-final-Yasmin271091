@@ -2,19 +2,21 @@
     width: 100vw;
     text-align: center;
     padding: 1.5rem;
-    background-color: #d9e4cc;
+    background-color: $colorgrey;
+    padding-bottom: 3rem;
     .title4 {
-        color: #626262;
+        color: $colorgreylight;
+        font-family: $font-title;
         line-height: 3rem;
         font-size: 1.2rem;
         text-align: center;
         .title5{
-            width: 3.20rem;
-            height: 6.56rem;
-            font-size: 2rem;
-            margin: 1.6rem 0 0;
+            font-size: 4rem;
+            line-height: 1.61;
+            font-weight: bold;
+            font-family: $font-title;
             padding-bottom: 1.4rem;
-            color: black;
+            color: $colorblack;
             text-align: center;
             .p {
                 font-size: 1.4rem;
@@ -25,12 +27,11 @@
 }
 .grid-container{
     display: grid;
-    grid-template-columns: 15rem;
-    grid-template-rows: 15rem 15rem 15rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     justify-content: center;
     text-align: center;
-    gap: 1,5rem;
-
+    gap: 1.5rem;
     @media all and (min-width:768px){
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
@@ -39,13 +40,17 @@
 }
 .item{
     text-align: center;
-    padding-top: 1rem;
-    
+    padding-top: 2rem;
+    font-family: $font-title;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    font-weight: bold;
+    line-height: 3rem;
+
     }
     &_text{
-        font-size: 1.4rem;
-        line-height: 3rem;
-        font-weight: bold;
+        font-family: $font-title;
+        padding-bottom: 4rem;
     }
    
 }
@@ -54,18 +59,19 @@
     width: 11.4rem;
     height: 12.4rem;
     box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-};
+    
+}
 
 .link2{
         color: $colorwhite;
         background-color: $colorgreen;
         display: inline-block;
-        border-radius: 50%;
-        
+        border-radius: 3rem;
         padding: 0.5rem;
         text-align: center;
         text-decoration: none;
         font-size: 2rem;
+    
        
         
 }
