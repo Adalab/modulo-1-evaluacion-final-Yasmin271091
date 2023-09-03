@@ -15,9 +15,28 @@
     }
 
     &_links{
-        color: $colorwhite;
-        text-decoration: none;
+        width: 100vw;
+        font-size: 1.6rem;
+        font-family: roboto;
+        color: $colorwhite;  
         text-align: center;
         text-transform: uppercase;
+        list-style: none;
+        text-decoration: none;
+        &_links1{
+            width: 10.38rem;
+            height: 13.97rem;
+            color: $colorwhite;
+            text-align: center;
+            text-decoration: none;
+            &_links2{
+                width: 9.25rem;
+                height: 8.38rem;
+                color: $colorwhite;
+                margin: 2.79rem 10.28rem 2.98rem 10.28rem;
+                line-height: 1.88;
+                text-decoration: none;
+            }
+        }
     }
 }

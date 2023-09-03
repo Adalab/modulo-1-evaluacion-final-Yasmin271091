@@ -5,40 +5,39 @@
     width: 100vw;
     height: 100vh;
     display: flex;
+    text-align: center;
+    gap: 7rem;
     flex-direction: column;
     align-items: center;
     color: $colorwhite;
-    .hero_title{
+    &_title{
         width: 31.55rem;
         height: 5.72rem;
         display: flex;
-        font-weight: bold;
-        padding-top: 38rem;
+        padding-top: 25rem;
         font-size: 3rem;
-        text-transform: uppercase;
-        justify-content: center;
         }
-        .title-1 {
+        &_title1{
             width: 24.33rem;
             height: 1.6rem;
             padding-left: 3.4rem;
             padding-right: 3.8rem;
-            font-size: 3rem;
+            font-size: 2rem;
             color: $colorwhite;
             line-height: 1.19;
-            text-align: center;
-        }
+            }
             .down{
                 width: 3.82rem;
                 height: 3.82rem;
+                display: flex;
                 padding: 1.1rem;
+                margin-bottom: 5.8rem;
                 background-color: $colorwhite;
                 border-radius: 50%;
-                display: flex;
                 justify-content: center;
                 align-items: center;
                 line-height: 50px;
-                transform: translateY() translateX();
+                transform: translateY(80%) translateX(-50%);
                 
             }
 

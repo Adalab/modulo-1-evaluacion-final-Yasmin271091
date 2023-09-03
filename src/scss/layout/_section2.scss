@@ -1,22 +1,25 @@
 .section2 {
     width: 100vw;
-    height: 100vh;
+    height: 65.6rem;
+    text-align: center;
+    padding: 1.5rem;
     background-color: #d9e4cc;
     .title4 {
-        width: 29.7rem;
-        height: 2.21rem;
         color: #626262;
+        line-height: 3rem;
         font-size: 1.2rem;
         text-align: center;
-        padding-top: 2rem;
         .title5{
             width: 3.20rem;
             height: 6.56rem;
             font-size: 2rem;
             margin: 1.6rem 0 0;
-            padding-top: 4rem;
+            padding-bottom: 1.4rem;
             color: black;
             text-align: center;
+            .p {
+                font-size: 1.4rem;
+            }
         }
     }
 
@@ -28,7 +31,12 @@
 }
 .item{
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 1rem;
+    &_text{
+        font-size: 1.4rem;
+        line-height: 3rem;
+        font-weight: bold;
+    }
    
 }
 .ball-image{
@@ -39,14 +47,15 @@
 };
 
 .link2{
-        color: #ffffff;
-        background-color: #6c933e;
-        width: 160p;
-        height: 45px;
-        border-radius: 10%;
+        color: $colorwhite;
+        background-color: $colorgreen;
+        display: inline-block;
+        border-radius: 50%;
+        border: solid 2px $colorgreen;
         padding: 0.5rem;
         text-align: center;
         text-decoration: none;
         font-size: 2rem;
-        margin: 130px;
+       
+        
 }
