@@ -1,6 +1,5 @@
 .section2 {
     width: 100vw;
-    height: 65.6rem;
     text-align: center;
     padding: 1.5rem;
     background-color: #d9e4cc;
@@ -26,12 +25,23 @@
 }
 .grid-container{
     display: grid;
-    width: 100vw;
-    grid-template-columns: 1fr;
+    grid-template-columns: 15rem;
+    grid-template-rows: 15rem 15rem 15rem;
+    justify-content: center;
+    text-align: center;
+    gap: 1,5rem;
+
+    @media all and (min-width:768px){
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-content: space-evenly;
+    
 }
 .item{
     text-align: center;
     padding-top: 1rem;
+    
+    }
     &_text{
         font-size: 1.4rem;
         line-height: 3rem;
@@ -51,7 +61,7 @@
         background-color: $colorgreen;
         display: inline-block;
         border-radius: 50%;
-        border: solid 2px $colorgreen;
+        
         padding: 0.5rem;
         text-align: center;
         text-decoration: none;

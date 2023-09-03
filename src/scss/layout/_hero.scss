@@ -6,7 +6,7 @@
     height: 100vh;
     display: flex;
     text-align: center;
-    gap: 7rem;
+    gap: 8rem;
     flex-direction: column;
     align-items: center;
     color: $colorwhite;
@@ -14,17 +14,25 @@
         width: 31.55rem;
         height: 5.72rem;
         display: flex;
-        padding-top: 25rem;
+        padding-top: 30rem;
         font-size: 3rem;
+        text-transform: uppercase;
+        @media all and (min-width:768px){
+            font-size: 5rem;
+        @media all and (min-width:1200px){
+            font: size 7.5rem;;
+        }
+        }
         }
         &_title1{
             width: 24.33rem;
             height: 1.6rem;
-            padding-left: 3.4rem;
-            padding-right: 3.8rem;
             font-size: 2rem;
             color: $colorwhite;
             line-height: 1.19;
+            @media all and (min-width:768px){
+                font-size: 2.4rem;
+            }
             }
             .down{
                 width: 3.82rem;
@@ -37,7 +45,7 @@
                 justify-content: center;
                 align-items: center;
                 line-height: 50px;
-                transform: translateY(80%) translateX(-50%);
+                transform: translateY(0%) translateX(-50%);
                 
             }
 

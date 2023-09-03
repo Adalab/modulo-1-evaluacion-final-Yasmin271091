@@ -1,6 +1,5 @@
 .section1{
     width: 100vw;
-    height: 37.6rem;
     flex-grow: 0;
     margin-left:  0 1rem;
     padding: 3.4rem 1.7rem 0.2rem 1.3rem;
@@ -40,6 +39,7 @@
     font-size: 1.8rem;
     line-height: 1.67;
     text-align:left;
+    padding-right: 2rem;
     justify-content: center;
     align-items: center;
 }
@@ -47,10 +47,13 @@
     color: #6c933e;
     background-color: #ffffff;
     width: 160px;
-    height: 45px;
-    border-radius: 50%  green solid 1px;
-    padding: 5px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 3rem;
+    border: solid 1px $colorgreen;
     text-decoration: none;
-    position: absolute;
     font-size: 2rem;
 }
