@@ -40,7 +40,7 @@ Las herramientas empleadas para llevar a cabo este proyecto han sido:
 - `Package.json`.
 - `GitHub` y `GitHub Pages`.
 
-## Material aportado:
+## 🔗 Material aportado:
 
 El código se encuentra en la rama principal de este repositorio y se expone la rama `gh_pages` en `GitHub Pages`:
 <http://beta.adalab.es/modulo-1-evaluacion-final-Yasmin271091/>
