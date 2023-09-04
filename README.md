@@ -31,7 +31,7 @@ Los puntos más imortantes de la realización han sido:
 npm run deploy
 ```
 
-## Herrramientas.
+## 🛠 Herrramientas.
 
 Las herramientas empleadas para llevar a cabo este proyecto han sido:
 
